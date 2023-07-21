@@ -1,0 +1,85 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@font-face {
+    font-family: 'Idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #768d7f;
+}
+
+header {
+    background-image:linear-gradient(to right, #A9CBB7, #667c6f);
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.452);
+}
+header > h1 {
+    text-align: center;
+    font-family: 'Montserrat', Arial, sans-serif;
+    
+}
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(17, 109, 17);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+nav > a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+    color: #061826;
+    
+}
+
+h1, h2 {
+    font-family: 'Idroid', sans-serif;
+    color: darkgreen;
+    background-color: #A9CBB7;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+main {
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    text-align: justify;
+    padding: 10px;
+    box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.452);
+    border-radius: 5px;
+}
+#saibamais {
+    background-color: #7F998A;
+    border-radius: 5px;
+    padding: 0px;
+}
+
+article {
+    padding: 0px 3px;
+}
+article > h3 {
+    color: white;
+    background-color: #294D38;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+ul {
+    display: block;
+}
+
