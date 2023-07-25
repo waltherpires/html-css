@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    max-width: 100vw;
+}
+header {
+    font-family: 'Passion One', cursive;
+    font-size: 2em;
+    text-align: center;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    padding: 60px 0px;
+    margin-bottom: 4px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header a:hover {
+    background-image: linear-gradient(to right, #41404056, #6d6d6d5d);
+    text-decoration: underline;
+    transition-duration: 10s; /* não está funcionando. PQ? */
+}
+
+main {
+    
+    text-align: justify;
+    
+}
+
+main p {
+    font-family: 'Sriracha', cursive;
+    font-size: 1.2em;
+    line-height: 28px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    padding-left: 9px;
+}
+
+#flor {
+    width: 100vw;
+    height: 100vh;
+    color: white; /* mudar dps */
+    max-height: 300px;
+    background-color: yellow;
+    background-image: url('imagens/background001.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left center;
+}
+
+#cartas {
+    width: 100vw;
+    height: 100vh;
+    color: white; /* mudar dps */
+    max-height: 300px;
+    background-color: yellow;
+    background-image: url('imagens/background002.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left center;
+}
+
+footer {
+    width: 100vw;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    transition-duration: 10s; /* não está funcionando. PQ? */
+}
