@@ -4,7 +4,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    max-width: 100vw;
+    max-width: 100%;
 }
 header {
     font-family: 'Passion One', cursive;
@@ -46,7 +46,7 @@ main p {
 
 #flor {
     width: 100vw;
-    height: 100vh;
+   
     color: white; /* mudar dps */
     max-height: 300px;
     background-color: yellow;
@@ -58,7 +58,6 @@ main p {
 
 #cartas {
     width: 100vw;
-    height: 100vh;
     color: white; /* mudar dps */
     max-height: 300px;
     background-color: yellow;
