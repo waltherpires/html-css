@@ -5,33 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Astronauta</title>
     <style>
-        #container{
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        body {
             
             position: relative;
             height: 100vh;
             background-color: black;
             background-image: url('imagens/espaco.jpg');
-            background-size: 100% 100%;
-
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        
         }
 
-        #conteudo{
-            
+        #conteudo {
+            min-width: 517px;
+            min-height: 500px;
             position: absolute;
             background-image: url('imagens/astronauta.png');
-            transform: translate(-50%, -50%);
-            left: 50%;
             top: 50%;
+            left: 50%; 
+            transform: translate(-50%, -50%);
 
         }
+        
 
     </style>
 </head>
 <body>
-    <section id="container">
-        <article id="conteudo">
-
-        </article>
+    <section id="conteudo">
+    
     </section>
 </body>
 </html>
