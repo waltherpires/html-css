@@ -10,19 +10,22 @@
         }
 
         table {
+            height: 400px;
             width: 400px;
             padding: 8px;
             border-collapse: collapse;
             
         }
 
-        tr.linha {
-            background-color: gray;
+        td {
+            text-align: center; /* Alinhamento horizontal */
+            vertical-align: middle; /* Alinhamento vertical */
+            border: 1px solid black; 
+            padding: 8px;
         }
 
-        td {
-            border: 1px solid black;
-            padding: 8px;
+        .numero {
+            text-align: right;
         }
 
 
@@ -44,15 +47,15 @@
             <td>B1</td>
             <td>C1</td>
         </tr>
-        <tr class="linha">
+        <tr>
             <td>A2</td>
             <td>B2</td>
-            <td>C2</td>
+            <td class="numero">C2</td>
         </tr>
         <tr>
             <td>A3</td>
             <td>B3</td>
-            <td>C3</td>
+            <td class="numero">C3</td>
         </tr>
         <tr>
             <td>A4</td>
