@@ -29,6 +29,7 @@ span#burguer {
     text-align: center;
     padding: 10px;
     cursor: pointer;
+    margin: center;
 }
 
 menu {
