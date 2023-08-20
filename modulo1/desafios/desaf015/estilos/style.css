@@ -5,3 +5,72 @@ Paleta de cores
 verde: #49a09d
 Lilás: #5f2c82
 */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #5f2c82;
+}
+
+main {
+    height: 50vh;
+    width: 80vw;
+
+    margin: auto;
+    margin-top: 25%;
+    margin-bottom: 25%;
+
+    background-color: white;
+    border-radius: 10px;
+}
+
+section {
+   position: relative;
+    
+}
+
+div#formulario {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+
+    height: 50%;
+    width: 50%;
+    padding: 10px;
+    
+}
+
+div#formulario > h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+div#formulario > p {
+    text-align: justify;
+    
+}
+
+#form {
+    padding-top: 30px;
+}
+
+
+div#imagem {
+    background-image: url(../imagens/patternbuilding.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    border-radius: 0px 10px 10px 0px;
+
+    position: absolute;
+    left: 53%;
+    top: 50%;
+    
+    height: 50vh;
+    width: 38vw;  
+}
+

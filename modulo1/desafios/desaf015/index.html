@@ -10,13 +10,19 @@
     <main>
         <section id="login">
             <div id="imagem">
-                Foto
+             
             </div>
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-                <form action="login.php" method="post">
-                    
+                <form id="form" action="login.php" method="post">
+                <label for="iusuario">Usuário:</label>    
+                <input type="text" name="usuario" id="iusuario">
+                <br>
+                <label for="isenha">Senha: </label>
+                <br>
+                <input type="password" name="senha" id="isenha">
+                <input type="submit" value="Logar">
                 </form>
             </div>
         </section>
